@@ -21,9 +21,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"kubesphere.io/im/pkg/client/im"
-	"kubesphere.io/im/pkg/config"
-	"kubesphere.io/im/pkg/global"
+	"cloudbases.io/im/pkg/client/im"
+	"cloudbases.io/im/pkg/config"
+	"cloudbases.io/im/pkg/global"
 )
 
 var imClient *im.Client

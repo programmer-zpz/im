@@ -22,11 +22,11 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 
-	"kubesphere.io/im/pkg/constants"
-	"kubesphere.io/im/pkg/pb"
-	"kubesphere.io/im/pkg/util/idutil"
-	"kubesphere.io/im/pkg/util/jsonutil"
-	"kubesphere.io/im/pkg/util/stringutil"
+	"cloudbases.io/im/pkg/constants"
+	"cloudbases.io/im/pkg/pb"
+	"cloudbases.io/im/pkg/util/idutil"
+	"cloudbases.io/im/pkg/util/jsonutil"
+	"cloudbases.io/im/pkg/util/stringutil"
 )
 
 type Group struct {

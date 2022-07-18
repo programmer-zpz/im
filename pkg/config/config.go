@@ -26,7 +26,7 @@ import (
 	yaml "gopkg.in/yaml.v2"
 	"openpitrix.io/logger"
 
-	"kubesphere.io/im/pkg/util/jsonutil"
+	"cloudbases.io/im/pkg/util/jsonutil"
 )
 
 const EnvPrefix = "IM"

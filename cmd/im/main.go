@@ -24,9 +24,9 @@ import (
 	"github.com/urfave/cli"
 	"openpitrix.io/logger"
 
-	"kubesphere.io/im/pkg/config"
-	"kubesphere.io/im/pkg/service/im"
-	"kubesphere.io/im/pkg/version"
+	"cloudbases.io/im/pkg/config"
+	"cloudbases.io/im/pkg/service/im"
+	"cloudbases.io/im/pkg/version"
 )
 
 var (

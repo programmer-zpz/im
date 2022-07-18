@@ -24,8 +24,8 @@ import (
 	"github.com/jinzhu/gorm"
 	"openpitrix.io/logger"
 
-	"kubesphere.io/im/pkg/constants"
-	"kubesphere.io/im/pkg/util/stringutil"
+	"cloudbases.io/im/pkg/constants"
+	"cloudbases.io/im/pkg/util/stringutil"
 )
 
 type RequestHadOffset interface {

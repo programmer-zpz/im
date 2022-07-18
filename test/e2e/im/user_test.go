@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//go:build integration
 // +build integration
 
 package im
@@ -22,8 +23,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"kubesphere.io/im/pkg/constants"
-	"kubesphere.io/im/pkg/pb"
+	"cloudbases.io/im/pkg/constants"
+	"cloudbases.io/im/pkg/pb"
 )
 
 func isUserEqual(t *testing.T, oldUser, newUser *pb.User, status string) bool {

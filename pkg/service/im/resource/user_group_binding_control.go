@@ -23,10 +23,10 @@ import (
 	"google.golang.org/grpc/status"
 	"openpitrix.io/logger"
 
-	"kubesphere.io/im/pkg/constants"
-	"kubesphere.io/im/pkg/global"
-	"kubesphere.io/im/pkg/models"
-	"kubesphere.io/im/pkg/pb"
+	"cloudbases.io/im/pkg/constants"
+	"cloudbases.io/im/pkg/global"
+	"cloudbases.io/im/pkg/models"
+	"cloudbases.io/im/pkg/pb"
 )
 
 func GetUserGroupBindings(ctx context.Context, userIds, groupIds []string) ([]*models.UserGroupBinding, error) {

@@ -5,9 +5,9 @@
 package im
 
 import (
-	"kubesphere.io/im/pkg/global"
-	"kubesphere.io/im/pkg/manager"
-	"kubesphere.io/im/pkg/pb"
+	"cloudbases.io/im/pkg/global"
+	"cloudbases.io/im/pkg/manager"
+	"cloudbases.io/im/pkg/pb"
 )
 
 type Client struct {

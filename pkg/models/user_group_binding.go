@@ -19,8 +19,8 @@ package models
 import (
 	"time"
 
-	"kubesphere.io/im/pkg/constants"
-	"kubesphere.io/im/pkg/util/idutil"
+	"cloudbases.io/im/pkg/constants"
+	"cloudbases.io/im/pkg/util/idutil"
 )
 
 type UserGroupBinding struct {

@@ -34,4 +34,4 @@ generate: $(PROTO_FILES) Makefile
 	goimports -l -w -e -local=kubesphere ../pkg/pb
 
 clean:
-	rm -rf $(GOPATH)/src/kubesphere.io/im/pkg/pb
+	rm -rf $(GOPATH)/src/cloudbases.io/im/pkg/pb

@@ -1,4 +1,4 @@
-module kubesphere.io/im
+module cloudbases.io/im
 
 require (
 	github.com/BurntSushi/toml v0.3.1

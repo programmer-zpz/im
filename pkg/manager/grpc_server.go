@@ -37,7 +37,7 @@ import (
 	"google.golang.org/grpc/status"
 	"openpitrix.io/logger"
 
-	"kubesphere.io/im/pkg/version"
+	"cloudbases.io/im/pkg/version"
 )
 
 type GrpcServer struct {

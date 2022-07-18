@@ -24,13 +24,13 @@ import (
 	"google.golang.org/grpc/status"
 	"openpitrix.io/logger"
 
-	"kubesphere.io/im/pkg/constants"
-	"kubesphere.io/im/pkg/db"
-	"kubesphere.io/im/pkg/global"
-	"kubesphere.io/im/pkg/models"
-	"kubesphere.io/im/pkg/pb"
-	"kubesphere.io/im/pkg/util/jsonutil"
-	"kubesphere.io/im/pkg/util/stringutil"
+	"cloudbases.io/im/pkg/constants"
+	"cloudbases.io/im/pkg/db"
+	"cloudbases.io/im/pkg/global"
+	"cloudbases.io/im/pkg/models"
+	"cloudbases.io/im/pkg/pb"
+	"cloudbases.io/im/pkg/util/jsonutil"
+	"cloudbases.io/im/pkg/util/stringutil"
 )
 
 func CreateUser(ctx context.Context, req *pb.CreateUserRequest) (*pb.CreateUserResponse, error) {

@@ -21,8 +21,8 @@ import (
 
 	"openpitrix.io/logger"
 
-	"kubesphere.io/im/pkg/config"
-	"kubesphere.io/im/pkg/db"
+	"cloudbases.io/im/pkg/config"
+	"cloudbases.io/im/pkg/db"
 )
 
 var global *Config

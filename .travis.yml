@@ -4,7 +4,7 @@ services:
 language: go
 go:
 - '1.11.4'
-go_import_path: kubesphere.io/im
+go_import_path: cloudbases.io/im
 before_script:
 - make fmt-check
 - make check

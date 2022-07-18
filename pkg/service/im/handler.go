@@ -19,9 +19,9 @@ package im
 import (
 	"context"
 
-	"kubesphere.io/im/pkg/pb"
-	"kubesphere.io/im/pkg/service/im/resource"
-	"kubesphere.io/im/pkg/version"
+	"cloudbases.io/im/pkg/pb"
+	"cloudbases.io/im/pkg/service/im/resource"
+	"cloudbases.io/im/pkg/version"
 )
 
 func (p *Server) GetVersion(ctx context.Context, req *pb.GetVersionRequest) (*pb.GetVersionResponse, error) {

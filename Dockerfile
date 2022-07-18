@@ -17,7 +17,7 @@ FROM golang:1.11-alpine3.7 as builder
 # install tools
 RUN apk add --no-cache git
 
-WORKDIR /go/src/kubesphere.io/im
+WORKDIR /go/src/cloudbases.io/im
 COPY . .
 
 ENV GO111MODULE=on
@@ -25,8 +25,8 @@ ENV CGO_ENABLED=0
 ENV GOOS=linux
 
 RUN mkdir -p /kubesphere_bin
-RUN go generate kubesphere.io/im/pkg/version && \
-	GOBIN=/kubesphere_bin go install -ldflags '-w -s' -tags netgo kubesphere.io/im/cmd/...
+RUN go generate cloudbases.io/im/pkg/version && \
+	GOBIN=/kubesphere_bin go install -ldflags '-w -s' -tags netgo cloudbases.io/im/cmd/...
 
 FROM alpine:3.7
 COPY --from=builder /kubesphere_bin/im /usr/local/bin/

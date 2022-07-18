@@ -15,7 +15,7 @@
 PWD:=$(shell pwd)
 
 TARG.Name:=kubesphereim
-TRAG.Gopkg:=kubesphere.io/im
+TRAG.Gopkg:=cloudbases.io/im
 TRAG.Version:=$(TRAG.Gopkg)/pkg/version
 
 GO_FMT:=goimports -l -w -e -local=kubesphere -srcdir=/go/src/$(TRAG.Gopkg)

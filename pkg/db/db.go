@@ -24,7 +24,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 	"openpitrix.io/logger"
 
-	"kubesphere.io/im/pkg/config"
+	"cloudbases.io/im/pkg/config"
 )
 
 type Database struct {

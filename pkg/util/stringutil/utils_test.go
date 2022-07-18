@@ -19,7 +19,7 @@ package stringutil
 import (
 	"testing"
 
-	. "kubesphere.io/im/pkg/util/assert"
+	. "cloudbases.io/im/pkg/util/assert"
 )
 
 func TestSimplifyStringList(t *testing.T) {
